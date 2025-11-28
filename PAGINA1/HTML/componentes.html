@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo Skeleton - Componentes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="imagenes/favicon.png">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- Encabezado -->
+    <div class="row" style="margin-top: 3rem;">
+      <div class="twelve columns">
+        <h2>Componentes con Skeleton</h2>
+        <p>
+          Esta página demuestra otros elementos: listas anidadas, código, imágenes
+          responsivas y más combinaciones del grid.
+        </p>
+      </div>
+    </div>
+
+    <!-- Navegación simple -->
+    <div class="row">
+      <div class="twelve columns">
+        <a class="button" href="index.html">Inicio</a>
+        <a class="button" href="formulario.html">Formulario</a>
+        <a class="button button-primary" href="componentes.html">Componentes</a>
+      </div>
+    </div>
+
+    <!-- Grid con tres columnas -->
+    <div class="row" style="margin-top: 2rem;">
+      <div class="four columns">
+        <h4>Lista de tareas</h4>
+        <ul>
+          <li>Diseñar la arquitectura del sistema</li>
+          <li>Crear prototipo de interfaz</li>
+          <li>Configurar servidor y base de datos</li>
+          <li>Realizar pruebas de usabilidad</li>
+        </ul>
+      </div>
+
+      <div class="four columns">
+        <h4>Pasos de desarrollo</h4>
+        <ol>
+          <li>Definir requerimientos</li>
+          <li>Diseñar modelo de datos</li>
+          <li>Implementar front-end y back-end</li>
+          <li>Desplegar en producción</li>
+        </ol>
+      </div>
+
+      <div class="four columns">
+        <h4>Notas</h4>
+        <p>
+          Skeleton aplica márgenes y tipografía limpia a listas, párrafos y
+          encabezados. No necesitamos definir estilos adicionales.
+        </p>
+      </div>
+    </div>
+
+    <!-- Código de ejemplo -->
+    <div class="row">
+      <div class="twelve columns">
+        <h3>Ejemplo de código</h3>
+        <pre><code>
+// Petición básica desde el cliente (JavaScript)
+fetch('/api/usuarios')
+  .then(respuesta =&gt; respuesta.json())
+  .then(datos =&gt; console.log(datos));
+        </code></pre>
+        <p>
+          Fíjate cómo Skeleton ya le da estilo al elemento <code>&lt;code&gt;</code> y
+          al bloque <code>&lt;pre&gt;</code> sin que tengamos que escribir más CSS.
+        </p>
+      </div>
+    </div>
+
+    <!-- Imagen responsiva -->
+    <div class="row">
+      <div class="six columns">
+        <h4>Imagen responsiva</h4>
+        <p>
+          La clase <code>.u-max-full-width</code> hace que la imagen no se desborde
+          del contenedor y se adapte al ancho disponible.
+        </p>
+      </div>
+      <div class="six columns">
+        <img class="u-max-full-width" src="https://definicion.com/wp-content/uploads/2022/09/imagen.jpg" alt="Diagrama de sistema web">
+      </div>
+    </div>
+
+    <!-- Utilidades de alineación -->
+    <div class="row" style="margin-top: 2rem;">
+      <div class="six columns">
+        <a href="index.html" class="button u-pull-left">⟵ Volver al inicio</a>
+      </div>
+      <div class="six columns">
+        <a href="formulario.html" class="button button-primary u-pull-right">Ir al formulario ⟶</a>
+      </div>
+    </div>
+
+
+  </div>
+</body>
+<footer class="footer-transparent">
+  <p>© 2025 Grupo 5 | Project: “Skeleton-Framework”</p><br>
+
+  <div class="social-media">
+    <a href="https://www.facebook.com/" target="_blank" title="Facebook">
+      <img src="https://cdn-icons-png.flaticon.com/512/1384/1384005.png" alt="Facebook">
+    </a>
+    <a href="https://www.instagram.com/" target="_blank" title="Instagram">
+      <img src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png" alt="Instagram">
+    </a>
+    <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" title="Gmail">
+      <img src="https://cdn-icons-png.flaticon.com/512/1384/1384012.png" alt="Gmail">
+    </a>
+    <a href="https://x.com/" target="_blank" title="X">
+      <img src="https://cdn-icons-png.flaticon.com/512/1384/1384017.png" alt="X">
+    </a>
+  </div>
+
+  <p class="final-text">
+    Síguenos en nuestras redes sociales para conocer más sobre nuestros proyectos y actualizaciones. 
+  </p>
+</footer>
+</html>
