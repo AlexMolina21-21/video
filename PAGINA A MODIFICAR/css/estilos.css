@@ -142,8 +142,7 @@ body {
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  transition: var(--transition);
-  box-shadow: var(--shadow-sm);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
 .button::before {
@@ -602,4 +601,5 @@ footer {
   .container {
     max-width: 750px;
   }
+
 }
